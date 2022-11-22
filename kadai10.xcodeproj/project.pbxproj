@@ -13,9 +13,9 @@
 		8BDE3730291BE95600E5724B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE372E291BE95600E5724B /* Main.storyboard */; };
 		8BDE3732291BE95700E5724B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE3731291BE95700E5724B /* Assets.xcassets */; };
 		8BDE3735291BE95700E5724B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE3733291BE95700E5724B /* LaunchScreen.storyboard */; };
-		8BDE3740291BE95700E5724B /* kadai10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE373F291BE95700E5724B /* kadai10Tests.swift */; };
-		8BDE374A291BE95700E5724B /* kadai10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE3749291BE95700E5724B /* kadai10UITests.swift */; };
-		8BDE374C291BE95700E5724B /* kadai10UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE374B291BE95700E5724B /* kadai10UITestsLaunchTests.swift */; };
+		8BDE3740291BE95700E5724B /* Kadai10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE373F291BE95700E5724B /* Kadai10Tests.swift */; };
+		8BDE374A291BE95700E5724B /* Kadai10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE3749291BE95700E5724B /* Kadai10UITests.swift */; };
+		8BDE374C291BE95700E5724B /* Kadai10UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE374B291BE95700E5724B /* Kadai10UITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +45,10 @@
 		8BDE3734291BE95700E5724B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BDE3736291BE95700E5724B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BDE373B291BE95700E5724B /* kadai10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kadai10Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BDE373F291BE95700E5724B /* kadai10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadai10Tests.swift; sourceTree = "<group>"; };
+		8BDE373F291BE95700E5724B /* Kadai10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai10Tests.swift; sourceTree = "<group>"; };
 		8BDE3745291BE95700E5724B /* kadai10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kadai10UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BDE3749291BE95700E5724B /* kadai10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadai10UITests.swift; sourceTree = "<group>"; };
-		8BDE374B291BE95700E5724B /* kadai10UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadai10UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8BDE3749291BE95700E5724B /* Kadai10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai10UITests.swift; sourceTree = "<group>"; };
+		8BDE374B291BE95700E5724B /* Kadai10UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai10UITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 		8BDE373E291BE95700E5724B /* kadai10Tests */ = {
 			isa = PBXGroup;
 			children = (
-				8BDE373F291BE95700E5724B /* kadai10Tests.swift */,
+				8BDE373F291BE95700E5724B /* Kadai10Tests.swift */,
 			);
 			path = kadai10Tests;
 			sourceTree = "<group>";
@@ -121,8 +121,8 @@
 		8BDE3748291BE95700E5724B /* kadai10UITests */ = {
 			isa = PBXGroup;
 			children = (
-				8BDE3749291BE95700E5724B /* kadai10UITests.swift */,
-				8BDE374B291BE95700E5724B /* kadai10UITestsLaunchTests.swift */,
+				8BDE3749291BE95700E5724B /* Kadai10UITests.swift */,
+				8BDE374B291BE95700E5724B /* Kadai10UITestsLaunchTests.swift */,
 			);
 			path = kadai10UITests;
 			sourceTree = "<group>";
@@ -137,6 +137,7 @@
 				8BDE3721291BE95600E5724B /* Sources */,
 				8BDE3722291BE95600E5724B /* Frameworks */,
 				8BDE3723291BE95600E5724B /* Resources */,
+				8BDE3758292D086300E5724B /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -253,6 +254,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8BDE3758292D086300E5724B /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BDE3721291BE95600E5724B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BDE3740291BE95700E5724B /* kadai10Tests.swift in Sources */,
+				8BDE3740291BE95700E5724B /* Kadai10Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +298,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BDE374C291BE95700E5724B /* kadai10UITestsLaunchTests.swift in Sources */,
-				8BDE374A291BE95700E5724B /* kadai10UITests.swift in Sources */,
+				8BDE374C291BE95700E5724B /* Kadai10UITestsLaunchTests.swift in Sources */,
+				8BDE374A291BE95700E5724B /* Kadai10UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

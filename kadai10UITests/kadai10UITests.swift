@@ -7,8 +7,7 @@
 
 import XCTest
 
-final class kadai10UITests: XCTestCase {
-
+final class Kadai10UITests: XCTestCase {
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
