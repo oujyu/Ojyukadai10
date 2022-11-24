@@ -24,14 +24,9 @@ class ViewController: UIViewController, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cellName = ""
-        if indexPath.row % 3 == 0 {
-            cellName = "Cell1"
-        } else if indexPath.row % 3 == 1 {
-            cellName = "Cell2"
-        } else {
-            cellName = "Cell3"
-        }
+        let cellNames = ["Cell1", "Cell2", "Cell3"]
+        let cellName = cellNames[indexPath.row % cellNames.count]
+
         let cell = tableView.dequeueReusableCell(withIdentifier: cellName)! as UITableViewCell
         cell.textLabel?.text = prefectures[indexPath.row]
         return cell
